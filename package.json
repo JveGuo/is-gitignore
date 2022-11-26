@@ -1,0 +1,43 @@
+{
+  "name": "@jveguo16/is-gitignore",
+  "version": "0.0.1",
+  "description": "Determine whether the file is ignored",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "prepublishOnly": "father doctor && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JveGuo/is-gitignore.git"
+  },
+  "keywords": [
+    "is-gitignore",
+    "isGitignore",
+    "gitnore",
+    "isIgnore"
+  ],
+  "authors": [
+    "jveguo16@gmail.com"
+  ],
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "father": "^4.1.0"
+  },
+  "dependencies": {
+    "chalk": "4.1.0",
+    "dotgitignore": "^2.1.0",
+    "fs-extra": "^10.1.0",
+    "path": "^0.12.7"
+  }
+}

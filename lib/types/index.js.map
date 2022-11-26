@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/types/index.ts"],
+  "sourcesContent": ["/**\n * @Author: jiawei.guo\n * @Date: 2022-11-26 16:49:12\n * @Description: types\n */\nexport interface IgnoreProps {\n  folderPath: string;\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;AAAA;AAAA;",
+  "names": []
+}

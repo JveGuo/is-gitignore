@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/ignore/constSet.ts"],
+  "sourcesContent": ["/**\n * @Author: jiawei.guo\n * @Date: 2022-11-26 20:03:26\n * @Description: constSet\n */\n\nexport const ignorePathList: string[] = [];\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAMO,IAAM,iBAA2B,CAAC;",
+  "names": []
+}

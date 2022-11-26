@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["import ignore from \"./ignore/index\";\nimport { IgnoreProps } from \"./types\";\n\nexport { ignore, IgnoreProps };\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA,8BAAAA;AAAA;AAAA;AAAA,oBAAmB;AACnB,mBAA4B;",
+  "names": ["ignore"]
+}
